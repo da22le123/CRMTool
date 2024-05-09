@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="1200.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.controllers.Controller">
+    <top>
+        <TableView fx:id="tableView" editable="true" prefHeight="200" prefWidth="800.0">
+
+
+        </TableView>
+
+    </top>
+
+    <!-- Placeholder for the middle part of the screen -->
+    <center>
+        <Pane>
+            <children>
+                <Text fx:id="actionTarget" translateX="750" translateY="50" />
+            </children>
+            <children>
+                <Text text="Search" translateX="150" translateY="100">
+               <font>
+                  <Font size="25.0" />
+               </font></Text>
+                    <Label text="Name"
+                           translateX="100" translateY="200">
+                        <font>
+                            <Font size="15.0" />
+                        </font>
+                    </Label>
+
+                    <TextField fx:id="nameField"
+                               translateX="200" translateY="200"/>
+
+                    <Label text="Postal Code"
+                           translateX="100" translateY="300">
+                        <font>
+                            <Font size="15.0" />
+                        </font>
+                    </Label>
+
+                    <TextField fx:id="postalCodeField"
+                               translateX="200" translateY="300"/>
+
+                    <Label text="City"
+                           translateX="100" translateY="400">
+                        <font>
+                            <Font size="15.0" />
+                        </font>
+                    </Label>
+
+                    <TextField fx:id="cityField"
+                               translateX="200" translateY="400"/>
+            </children>
+
+
+            <children>
+                <Text text="Download" translateX="1450" translateY="100">
+                    <font>
+                        <Font size="25.0" />
+                    </font></Text>
+                <Label text="Select"
+                       translateX="1400" translateY="200">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+
+                <TextField fx:id="selectField"
+                           translateX="1500" translateY="200"/>
+
+                <Label text="Condition"
+                       translateX="1400" translateY="300">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+
+                <TextField fx:id="conditionField"
+                           translateX="1500" translateY="300"/>
+
+                <Label text="File Format"
+                       translateX="1400" translateY="400">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+
+                <TextField fx:id="fileFormatField"
+                           translateX="1500" translateY="400"/>
+
+            </children>
+                <Label text="Shortcuts:"
+                       translateX="750" translateY="300">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </Label>
+
+                <Label text="Add new row: SHIFT + N"
+                       translateX="750" translateY="350">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+
+                <Label text="Delete last row: SHIFT + D"
+                       translateX="750" translateY="400">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+            <children>
+
+            </children>
+        </Pane>
+    </center>
+
+</BorderPane>
