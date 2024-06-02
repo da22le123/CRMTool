@@ -8,4 +8,4 @@ Hello, this is Java desktop application **prototype**, the customer relationship
 - Spring Data Jpa
 - SQLite Database
 
-The development of this application was a part of the University assignment which also included: _the requirements elicitation, backlog items drafting, manual testing and context analysis._
+The development of this application also included: _the requirements elicitation, backlog items drafting, manual testing and context analysis._
